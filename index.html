@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title> Michelle Le </title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Michelle</a>
+
+                <div class="nav__menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home-alt'></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class='bx bx-user'></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class='bx bx-book-alt'></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#project" class="nav__link">
+                                <i class='bx bx-briefcase-alt-2'></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class='bx bx-message-square-detail'></i>                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Theme change button -->
+                <i class='bx bx-moon change-theme' id="theme-button"></i>
+            </nav>
+        </header>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <!--=============== HOME ===============-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__greeting">Hello, I'm</span>
+                        <h1 class="home__name">Michelle Le</h1>
+                        <h3 class="home__education">CS @ ConnColl</h3>
+
+                        <div class="home__button">
+                            <a download="" href="assets/pdf/Michelle-Le-Resume.pdf" class="button button--ghost">
+                                View Resume
+                            </a>
+                            <a href="#about" class="button">About Me</a>
+                        </div>
+                    </div>
+                    
+                    <div class="home__handle">
+                        <img src="assets/img/profile.jpeg" alt="profile picture" class="home__img">
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/minhnguyet-le/" target="_blank" class="home__social-link">
+                            <i class='bx bxl-linkedin-square'></i>
+                        </a>
+                        <a href="https://github.com/nguyetmle" target="_blank" class="home__social-link">
+                            <i class='bx bxl-github'></i>
+                        </a>
+                    </div>
+
+                    <a href="#about" class="home__scroll">
+                        <i class='bx bx-mouse-alt home__scroll-icon'></i>
+                        <span class="home__scroll-name">Scroll Down</span>
+                    </a>
+                </div>
+            </section>
+            
+            <!--=============== ABOUT ===============-->
+            <section class="about section" id="about">
+                <span class="section__subtitle">My Intro</span>
+                <h2 class="section__title">About Me</h2>
+
+                <div class="about__container container grid">
+                    <!-- <img src="assets/img/profile.jpeg" alt="about pic" class="about__img"> -->
+
+                    <div class="aboout__data">
+                        <p class="about__description">
+                            I'm Nguyet (also go by Michelle), a sophomore at Connecticut College, double majoring in Computer Science and Quantitative Economics. 
+                            As an aspiring software engineer, I enjoy building applications for non-profit organizations, creating community-centered projects 
+                            and helping students with coding (currently a CS teaching assistant!). Among the fields of Computer Science, I'm most interested in Web Development, 
+                            Mobile App Development and Machine Learning. <br><br>
+                            Outside of work, I am a passionate home cook, a film lover, a hiking enthusiast, and an amateur photographer.
+                        </p>
+
+                        <div class="about__box">
+                            <div class="about__box-half">
+                                <div class="about__info">
+                                    <p>
+                                        <b>Full Name:</b>
+                                        Michelle Le
+                                    </p>
+                                </div>
+                                <div class="about__info">
+                                    <p>
+                                        <b>Origin:</b>
+                                        Hanoi, Vietnam
+                                    </p>
+                                </div>
+                                <div class="about__info">
+                                    <p>
+                                        <b>Languages:</b>
+                                        English, Vietnamese
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="about__box-half">
+                                <div class="about__info">
+                                    <p>
+                                        <b>Education:</b>
+                                        Connecticut College
+                                    </p>
+                                </div>
+                                <div class="about__info">
+                                    <p>
+                                        <b>Majors:</b>
+                                        Computer Science, Economics
+                                    </h3>
+                                </div>
+                                <div class="about__info">
+                                    <p>
+                                        <b>Expected Graduation:</b>
+                                        2025
+                                    </p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== SKILLS ===============-->
+            <section class="skills section" id="skills">
+                <span class="section__subtitle">Techical Skills</span>
+                <h2 class="section__title">My Tech Stack</h2>
+
+                <div class="skills__container container grid">
+                    <img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&amp;logo=python&amp;logoColor=white">
+                    <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&amp;logo=java&amp;logoColor=white">
+                    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&amp;logo=javascript&amp;logoColor=black">
+                    <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&amp;logo=typescript&amp;logoColor=white">
+                    <img src="https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&amp;logo=ruby&amp;logoColor=white">
+                    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&amp;logo=react&amp;logoColor=61DAFB">
+                    <img src="https://img.shields.io/badge/Next-black?style=for-the-badge&amp;logo=next.js&amp;logoColor=white)">
+                    <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&amp;logo=node.js&amp;logoColor=white">
+                    <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge">
+                    <img src="https://img.shields.io/badge/rails-%23CC0000.svg?style=for-the-badge&amp;logo=ruby-on-rails&amp;logoColor=white">
+                    <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&amp;logo=mongodb&amp;logoColor=white">
+                    <img src="https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&amp;logo=flask&amp;logoColor=white">
+                    <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&amp;logo=mysql&amp;logoColor=white">
+                    <img src="https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&amp;logo=graphql&amp;logoColor=white">
+                    <img src="https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg">
+                  </div>
+            </section>
+
+            <!--=============== PROJECTS ===============-->
+            <section class="project section" id="project">
+                <span class="section__subtitle">My Projects</span>
+                <h2 class="section__title">Some Projects I've Built</h2>
+
+                <div class="project__container container grid">
+                    <div class="project__card">
+                        <img src="assets/img/prj1.png" alt="project screenshot" class="project__img">
+                        <div class="project__title-link">
+                            <h3 class="project__title">Weather App</h3>
+                            <a href="https://github.com/nguyetmle/Flask-Weather-App" target="_blank" class="project__icon">
+                                <i class='bx bxl-github'></i>
+                            </a>
+                        </div>
+                        <div class="project__skills">
+                            <span>HTML/CSS</span>
+                            <span>Bootstrap</span>
+                            <span>Python</span>
+                            <span>Flask</span>
+                            <span>SQLAlchemy</span>
+                            <span>Heroku</span>
+                        </div>
+                        <p>
+                            A simple web application for a weather dashboard that displays real-time weather data for different locations.
+                        </p>
+                    </div>
+
+                    <div class="project__card">
+                        <img src="assets/img/prj2.png" alt="project screenshot" class="project__img">
+                        <div class="project__title-link">
+                            <h3 class="project__title">Space Invaders</h3>
+                            <a href="https://github.com/nguyetmle/Space-Invaders" target="_blank" class="project__icon">
+                                <i class='bx bxl-github'></i>
+                            </a>
+                        </div>
+                        <div class="project__skills">
+                            <span>Python</span>
+                            <span>PyGame</span>
+                            <span>Graphics library</span>
+                        </div>
+                        <p>
+                            An UI-animated Space Invaders game with Python OOP, incorporating audio effects, highscore board and playback function.
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+
+            <!--=============== CONTACT ===============-->
+            <section class="contact section" id="contact">
+                <span class="section__subtitle">Get in touch</span>
+                <h2 class="section__title">Contact Me</h2>
+
+                <div class="contact__container container grid">
+                    <div class="contact__content">
+                        <div class="contact__info">
+                            <div class="contact__card">
+                                <i class='bx bxl-gmail contact__card-icon'></i>
+                                <h3 class="contact__card-title">Email</h3>
+                                <span class="contact__card-data">nle6@conncoll.edu</span>
+
+                                <a href="mailto:nle6@conncoll.edu" target="_blank" class="contact__button">
+                                    Write Me <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact__content">
+                        <h3 class="contact__title">Or leave me a message here!</h3>
+
+                        <form action="" class="contact__form">
+                            <div class="contact__form-div">
+                                <label for="" class="contact__form-tag">Name</label>
+                                <input type="text" placeholder="Insert your name" class="contact__form-input">
+                            </div>
+                            <div class="contact__form-div contact__form-area">
+                                <label for="" class="contact__form-tag">Message</label>
+                                <textarea name="" id="" cols="30" rows="10" placeholder="Write your message" class="contact__form-input"></textarea>
+                            </div>
+                            <button class="button">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer">
+            <div class="footer__container container">
+                <!-- <h1 class="footer__title">Michelle</h1> -->
+                <ul class="footer__list">
+                    <li>
+                        <a href="#about" class="footer__link">About</a>
+                    </li>
+                    <li>
+                        <a href="#project" class="footer__link">Projects</a>
+                    </li>
+                </ul>
+
+                <ul class="footer__social">
+                    <a href="https://www.linkedin.com/in/minhnguyet-le/" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-linkedin-square'></i>
+                    </a>
+                    <a href="https://github.com/nguyetmle" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                </ul>
+
+                <span class="footer__copy">
+                    Regards, Michelle.
+                </span>
+            </div>
+        </footer>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
