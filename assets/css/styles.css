@@ -481,6 +481,7 @@ body.light-theme {
 .project__icon {
   color: var(--first-color);
   font-size: var(--h2-font-size);
+  padding-right: 10px;
 }
 
 .project__skills {
