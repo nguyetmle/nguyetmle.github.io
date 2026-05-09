@@ -10,7 +10,7 @@ Previously, I was working on algorithmic game theory and computational social ch
 
 --------------
 ## Projects
-A case for Copeland: from theory to practice. Michelle Le, Chloe Nguyen, Leo Claney, Krishh Tipnis, Brian MacSweeney, Eric Huber, Christine Chung. In Proceedings of Frontiers of Algorithmics: 18th International Joint Conference, IJTCS-FAW 2024. DOI:[10.1007/978-981-97-7752-5_19](https://doi.org/10.1007/978-981-97-7752-5_19)
+A Case for Copeland: From Theory to Practice. Michelle Le, Chloe Nguyen, Leo Claney, Krishh Tipnis, Brian MacSweeney, Eric Huber, Christine Chung. In Proceedings of Frontiers of Algorithmics: 18th International Joint Conference, IJTCS-FAW 2024. DOI:[10.1007/978-981-97-7752-5_19](https://doi.org/10.1007/978-981-97-7752-5_19)
 
 
 --------------
