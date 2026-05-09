@@ -4,7 +4,7 @@ Previously, I was working on algorithmic game theory and computational social ch
 
 
 <div style="text-align: center;">
-<a href="mailto:rmahinpei@princeton.edu">Email</a> | <a href="assets/files/CV.pdf">CV</a> | <a href="https://www.linkedin.com/in/rmahinpei/">LinkedIn</a> | <a href="https://orcid.org/0000-0002-7500-5928">OrcID</a> | <a href="https://scholar.google.com/citations?user=oFp44rMAAAAJ">Google Scholar</a>
+<a href="mailto: le.michelle@princeton.edu">Email</a> | <a href="https://www.linkedin.com/in/minhnguyet-le/">LinkedIn</a> | <a href="https://scholar.google.com/citations?user=nW_hfOsAAAAJ&hl=en">Google Scholar</a>
 <p></p>
 </div>
 
